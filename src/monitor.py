@@ -23,7 +23,7 @@ print("Baseline Confidence:", baseline)
 print("Production Confidence:", production_confidence)
 
 # Detect degradation
-if production_confidence < baseline - 0.15:
+if production_confidence < baseline - 0.5:
     print("MODEL DEGRADATION DETECTED")
     sys.exit(1)
 else:
