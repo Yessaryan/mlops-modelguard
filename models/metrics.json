@@ -1,0 +1,16 @@
+{
+    "model_name": "LogisticRegression",
+    "accuracy": 0.8292682926829268,
+    "baseline_confidence": 0.7642573100623953,
+    "confusion_matrix": [
+        [
+            5,
+            3
+        ],
+        [
+            4,
+            29
+        ]
+    ],
+    "timestamp": "2026-03-02T23:17:52.942773"
+}
