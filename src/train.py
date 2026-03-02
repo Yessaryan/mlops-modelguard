@@ -44,7 +44,7 @@ y_pred = model.predict(X_val)
 accuracy = accuracy_score(y_val, y_pred)
 print("Validation Accuracy:", accuracy)
 
-if accuracy < 0.6:
+if accuracy < 0.85:
     raise Exception("Accuracy below threshold!")
 
 # Calculate baseline confidence
